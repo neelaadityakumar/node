@@ -1,6 +1,9 @@
-{
+{"type": "module",
+
   "dependencies": {
     "@datastructures-js/priority-queue": "4.1.2",
-    "@datastructures-js/queue": "^4.2.3"
-  }
+    "@datastructures-js/queue": "^4.2.3",
+    "node-fetch": "^3.3.2"
+  }  
+ 
 }
