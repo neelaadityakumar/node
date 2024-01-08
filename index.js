@@ -51,23 +51,6 @@ let timer = setInterval(async () => {
     clearInterval(timer);
   }
   let resp2 = await fetch(`https://exam.ankush.wiki/data?part=${count++}`, {
-    headers: {
-      accept: "*/*",
-      "accept-language": "en-US,en;q=0.6",
-      "cache-control": "no-cache",
-      pragma: "no-cache",
-      "sec-ch-ua": '"Not_A Brand";v="8", "Chromium";v="120", "Brave";v="120"',
-      "sec-ch-ua-mobile": "?0",
-      "sec-ch-ua-platform": '"Linux"',
-      "sec-fetch-dest": "empty",
-      "sec-fetch-mode": "cors",
-      "sec-fetch-site": "same-origin",
-      "sec-gpc": "1",
-      cookie:
-        "connect.sid=s%3AVVYaw3mRZMCwQcNZnouVVI7DaRkHn5mb.DnS1q7%2FzdJE%2Fzu0fZquT8gNErli3HEznQYrRxJRHWRc",
-      Referer: "https://exam.ankush.wiki/",
-      "Referrer-Policy": "strict-origin-when-cross-origin",
-    },
     body: null,
     method: "GET",
   });
